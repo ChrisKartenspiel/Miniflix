@@ -8,13 +8,6 @@ import auth0 from 'auth0-js';
 const ID_TOKEN_KEY = 'id_token';
 const ACCESS_TOKEN_KEY = 'access_token';
 
-// Other Const
-const CLIENT_ID = "xkA4n2Y3ULBsAaHz4CSjf7RcGjYxW5ib";
-const CLIENT_DOMAIN = "everlong.auth0.com";
-const REDIRECT = 'http://localhost:3000/callback';
-const SCOPE = 'full:access';
-const AUDIENCE = 'https://everlong.auth0.com/api/v2/';
-
 // Auth0 Init
 var auth = new auth0.WebAuth({
     clientID: CLIENT_ID,
